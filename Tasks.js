@@ -76,7 +76,6 @@ console.log("The number of pairs:", Pairs([5,18,1,3,4,0,7,2, -13]))
 console.log("The number of pairs:", Pairs([-10,15,24,3,4,2,11,6]))
 
 //TASK 5
-
 function UpperAndSort(guests){
     let upper = guests.toUpperCase()
     let arr = upper.split(';').map(x => x.replace(/(\w+):(\w+)/,'($2, $1)'))
